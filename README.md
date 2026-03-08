@@ -13,7 +13,7 @@ Mentor : Neela Santhosh
 
 Description about the Task :
 
-       This program demonstrates how to build a simple data preprocessing pipeline using the Python libraries Pandas and Scikit-learn. The purpose of the program is to clean, transform, and prepare a dataset so that it can be used for data analysis or machine learning tasks. In real-world datasets, the data may contain missing values, inconsistent formats, or features with different scales. Therefore, preprocessing the data is an important step before performing any analysis.
+This program demonstrates how to build a simple data preprocessing pipeline using the Python libraries Pandas and Scikit-learn. The purpose of the program is to clean, transform, and prepare a dataset so that it can be used for data analysis or machine learning tasks. In real-world datasets, the data may contain missing values, inconsistent formats, or features with different scales. Therefore, preprocessing the data is an important step before performing any analysis.
 
 The first step in the program is importing the required libraries. Pandas is used for handling and manipulating datasets, while Scikit-learn provides tools for data preprocessing and machine learning. From Scikit-learn, the program imports Pipeline, SimpleImputer, and StandardScaler. The Pipeline class allows multiple preprocessing steps to be combined into a single workflow. This makes the code more organized and easier to manage.
 
