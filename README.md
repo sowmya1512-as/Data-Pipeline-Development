@@ -30,3 +30,7 @@ After defining the pipeline, the program applies it to the numeric dataset using
 Finally, the processed data is converted back into a Pandas DataFrame with appropriate column names. The cleaned and transformed dataset is then saved as a new CSV file called prepared_data.csv. This new dataset can be used for further data analysis, visualization, or machine learning model development. The program also prints a message indicating that the data pipeline has been successfully completed.
 
 Overall, this program demonstrates a simple and effective approach to building a data preprocessing pipeline. It automates the steps of handling missing values, scaling numerical features, and saving the cleaned dataset, making the data ready for further analytical tasks.
+
+Output 
+
+<img width="969" height="508" alt="Image" src="https://github.com/user-attachments/assets/cce0e46c-a89a-40d5-a3f4-2e7ec92a4029" />
