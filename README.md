@@ -17,7 +17,7 @@ This program demonstrates how to build a simple data preprocessing pipeline usin
 
 The first step in the program is importing the required libraries. Pandas is used for handling and manipulating datasets, while Scikit-learn provides tools for data preprocessing and machine learning. From Scikit-learn, the program imports Pipeline, SimpleImputer, and StandardScaler. The Pipeline class allows multiple preprocessing steps to be combined into a single workflow. This makes the code more organized and easier to manage.
 
-After importing the libraries, the program loads the dataset from a CSV file using the read_csv() function from Pandas. The dataset is stored in a variable called data. This dataset may contain different types of columns, such as text and numeric values. For example, a dataset might include columns like Name, Age, Marks, and Attendance. The program prints the original dataset so the user can see the data before preprocessing.
+After importing the libraries, the program loads the dataset from a CSV file using the read_csv() function from Pandas. The dataset is stored in a variable called data. This dataset may contain different types of columns, such as text and numeric values. For example, a dataset might include columns like Name, Age  and Attendance. The program prints the original dataset so the user can see the data before preprocessing.
 
 The next step is selecting only numeric columns from the dataset. Machine learning algorithms generally work with numerical data, so it is important to separate numeric columns from text columns. Using the select_dtypes() function, the program extracts columns that contain integer or floating-point values. These columns are stored in a new variable called numeric_data.
 
@@ -27,6 +27,6 @@ The second step in the pipeline uses StandardScaler to standardize the numeric d
 
 After defining the pipeline, the program applies it to the numeric dataset using the fit_transform() method. This method first learns the necessary values, such as the mean and standard deviation, and then applies the transformations to the dataset. The output of this step is the processed data in a numerical format.
 
-Finally, the processed data is converted back into a Pandas DataFrame with appropriate column names. The cleaned and transformed dataset is then saved as a new CSV file called processed_data.csv. This new dataset can be used for further data analysis, visualization, or machine learning model development. The program also prints a message indicating that the data pipeline has been successfully completed.
+Finally, the processed data is converted back into a Pandas DataFrame with appropriate column names. The cleaned and transformed dataset is then saved as a new CSV file called prepared_data.csv. This new dataset can be used for further data analysis, visualization, or machine learning model development. The program also prints a message indicating that the data pipeline has been successfully completed.
 
 Overall, this program demonstrates a simple and effective approach to building a data preprocessing pipeline. It automates the steps of handling missing values, scaling numerical features, and saving the cleaned dataset, making the data ready for further analytical tasks.
